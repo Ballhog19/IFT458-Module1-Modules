@@ -1,0 +1,57 @@
+[
+    {
+        "id": 0,
+        "customerName": "IFT 101",
+        "phoneNumber": "$",
+        "address": "Information Technology",
+        "loanAmount": "David Alderman, Tatiana Walsh",
+        "interest": "4",
+        "loanTermYears": "6",
+        "loanType": " ",
+        "description": "Introduction to Information Technology"
+    },
+    {
+        "id": 1,
+        "customerName": "IFT 101",
+        "phoneNumber": "$",
+        "address": "Information Technology",
+        "loanAmount": "David Alderman, Tatiana Walsh",
+        "interest": "4",
+        "loanTermYears": "6",
+        "loanType": " ",
+        "description": "Introduction to Information Technology"
+    },
+    {
+        "id": 2,
+        "customerName": "IFT 101",
+        "phoneNumber": "$",
+        "address": "Information Technology",
+        "loanAmount": "David Alderman, Tatiana Walsh",
+        "interest": "4",
+        "loanTermYears": "6",
+        "loanType": " ",
+        "description": "Introduction to Information Technology"
+    },
+    {
+        "id": 3,
+        "customerName": "IFT 101",
+        "phoneNumber": "$",
+        "address": "Information Technology",
+        "loanAmount": "David Alderman, Tatiana Walsh",
+        "interest": "4",
+        "loanTermYears": "6",
+        "loanType": " ",
+        "description": "Introduction to Information Technology"
+    },
+    {
+        "id": 4,
+        "customerName": "IFT 101",
+        "phoneNumber": "$",
+        "address": "Information Technology",
+        "loanAmount": "David Alderman, Tatiana Walsh",
+        "interest": "4",
+        "loanTermYears": "6",
+        "loanType": " ",
+        "description": "Introduction to Information Technology"
+    }
+]
