@@ -22,7 +22,7 @@
         font-family: 'Nunito Sans', sans-serif;
         color: rgb(85, 85, 85);
         min-height: 100vh;
-        background: linear-gradient(to bottom right, #5d75e1, #4800e3);
+        background: linear-gradient(to bottom right, #5a2c33, #3e1622);
       }
 
       h1 {
@@ -69,7 +69,7 @@
         background-color: #79e17b;
       }
       .course__name {
-        background: linear-gradient(to bottom, #9be15d, #00e3ae);
+        background: linear-gradient(to bottom, #2d5f35, #073429);
         padding: 1rem;
         font-family: 'Megrim', sans-serif;
         font-size: 4rem;
@@ -86,7 +86,7 @@
       .course__link:visited {
         display: block;
         background-color: #79e17b;
-        color: white;
+        color: rgb(240, 236, 236);
         font-size: 1.6rem;
         font-weight: 700;
         text-transform: uppercase;
@@ -113,7 +113,7 @@
 
   <body>
     <div class="container">
-      <h1>📚 University Course List 📚</h1>
+      <h1>🏦 Loan Details 🏦</h1>
       <figure class="course">
         <a href="/" class="course__back">
           <span class="emoji-left">👈</span>Back
@@ -121,19 +121,32 @@
   
         <h2 class="course__name">{%NAME%}</h2>
         <div class="course__info">
-          <p><span class="emoji-left">🗞</span>Major in: {%FROM%}</p>
+          <span class="emoji-left">☎</span>Phone: {%PHONE%}
         </div>
         <div class="course__info">
-             <span><class="emoji-left">🎓</span>Instructors: {%INSTRUCTOR%}
+          <span class="emoji-left">🏠</span>Address: {%ADDRESS%}
         </div>
-
-        <a href="#" class="course__info">
-          <span> 🧮 Credits = {%CREDITS%}</span>
-        </a>
-  
-        <p class="course__info">
-          🏬 Department: {%DESCRIPTION%}
-        </p>
+        <div class="course__info">
+          <span class="emoji-left">💰</span>Loan Amount: {%AMOUNT%}
+        </div>
+        <div class="course__info">
+          <span class="emoji-left">📈</span>Interest: {%INTEREST%}%
+        </div>
+        <div class="course__info">
+          <span class="emoji-left">🗓</span>Loan Term: {%YEARS%} years
+        </div>
+        <div class="course__info">
+          <span class="emoji-left">💸</span>Monthly Payment: {%MONTHLY%}
+        </div>
+        <div class="course__info">
+          <span class="emoji-left">🤑</span>Total Amount Owed: {%OWED%}
+        </div>
+        <div class="course__info">
+          <span class="emoji-left">➡</span>Type: {%TYPE%}
+        </div>
+        <div class="course__info">
+          <span class="emoji-left">➡</span>Loan Description: {%DESCRIPTION%}
+        </div>
       </figure>
     </div>
   </body>

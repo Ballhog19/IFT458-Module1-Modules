@@ -1,57 +1,57 @@
 [
     {
         "id": 0,
-        "customerName": "IFT 101",
-        "phoneNumber": "$",
-        "address": "Information Technology",
-        "loanAmount": "David Alderman, Tatiana Walsh",
-        "interest": "4",
-        "loanTermYears": "6",
-        "loanType": " ",
-        "description": "Introduction to Information Technology"
+        "customerName": "Brad Hawk",
+        "phoneNumber": "(000) 000-0000",
+        "address": "123 Random St",
+        "loanAmount": 30000,
+        "interest": 6,
+        "loanTermYears": 12,
+        "loanType": "Personal",
+        "description": "Using loan to consolidate credit card debt"
     },
     {
         "id": 1,
-        "customerName": "IFT 101",
-        "phoneNumber": "$",
-        "address": "Information Technology",
-        "loanAmount": "David Alderman, Tatiana Walsh",
-        "interest": "4",
-        "loanTermYears": "6",
-        "loanType": " ",
-        "description": "Introduction to Information Technology"
+        "customerName": "Person B",
+        "phoneNumber": "(111) 111-1111",
+        "address": "2 UpThe Rd",
+        "loanAmount": 315000,
+        "interest": 4,
+        "loanTermYears": 30,
+        "loanType": "Mortgage",
+        "description": "First-time Homebuyer rate"
     },
     {
         "id": 2,
-        "customerName": "IFT 101",
-        "phoneNumber": "$",
-        "address": "Information Technology",
-        "loanAmount": "David Alderman, Tatiana Walsh",
-        "interest": "4",
-        "loanTermYears": "6",
-        "loanType": " ",
-        "description": "Introduction to Information Technology"
+        "customerName": "P Sherman",
+        "phoneNumber": "(222) 222-2222",
+        "address": "42 Wallaby Way",
+        "loanAmount": 75000,
+        "interest": 10,
+        "loanTermYears": 8,
+        "loanType": "Small-Business",
+        "description": "Starting a new dental office"
     },
     {
         "id": 3,
-        "customerName": "IFT 101",
-        "phoneNumber": "$",
-        "address": "Information Technology",
-        "loanAmount": "David Alderman, Tatiana Walsh",
-        "interest": "4",
-        "loanTermYears": "6",
-        "loanType": " ",
-        "description": "Introduction to Information Technology"
+        "customerName": "Person C",
+        "phoneNumber": "(333) 333-3333",
+        "address": "456 Wherever Ave",
+        "loanAmount": 18000,
+        "interest": 7,
+        "loanTermYears": 6,
+        "loanType": "Auto Loan",
+        "description": "Buying a Ferarri"
     },
     {
         "id": 4,
-        "customerName": "IFT 101",
-        "phoneNumber": "$",
-        "address": "Information Technology",
-        "loanAmount": "David Alderman, Tatiana Walsh",
-        "interest": "4",
-        "loanTermYears": "6",
-        "loanType": " ",
-        "description": "Introduction to Information Technology"
+        "customerName": "Person D",
+        "phoneNumber": "(444) 444-4444",
+        "address": "555 Nelson Pl.",
+        "loanAmount": 750,
+        "interest": 25,
+        "loanTermYears": 0.5,
+        "loanType": "Payday Loan",
+        "description": "Needed to pay bills this month"
     }
 ]
