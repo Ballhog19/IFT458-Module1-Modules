@@ -1,0 +1,35 @@
+Feature Page Elements
+    Name - Displays the name part of an HTTP response header name-value pair.
+
+    Value - Displays the value part of an HTTP response header name-value pair.
+    
+    Entry Type - Displays whether the item is local or inherited. Local items are read from the current configuration file, and inherited items are read from a parent configuration file.
+
+Actions Pane Elements
+    Add - Opens the Add Custom HTTP Response Header dialog box in which you can add a header.
+
+    Set Common Headers - Opens the Set Common HTTP Response Headers dialog box in which you can configure the HTTP keep-alive and Web content expiration headers.
+
+    Edit - Opens the Edit Custom HTTP Response Header dialog box in which you can edit a header. This action is available only when an item is selected from the list on the feature page.
+
+    Remove - Removes the item that is selected from the list on the feature page.`
+
+Add or Edit Custom HTTP Response Header Dialog Box
+    Name - Type the name part of an HTTP response header name-value pair.
+
+    Value - Type the value part of an HTTP response header name-value pair.
+
+Set Common HTTP Response Headers Dialog Box
+    Enable HTTP keep-alive - Select this option to keep a client/server connection open across multiple requests to the server. An open connection improves performance when a client makes multiple requests for Web page content because the server can more quickly return the content for each request.
+
+    Note - You must use HTTP keep-alive when you use integrated security or connection-based authentication services such as Integrated Windows authentication.
+
+    Expire Web content - Select this option to configure the expiration of Web content. A Web server returns this header value to a client browser in an HTML file header. The browser compares that value with the current date to determine whether to display a page that is cached on the client computer or to request an updated page from the server.
+
+    Then select one of the following options to specify when to expire the content:
+
+        Immediately - expires the content immediately after it is delivered. This setting is best for content that contains sensitive information that you do not want to be cached or that is updated very frequently.
+
+        After - sets the amount of time after which the content will be expired. This setting is best for content that is updated regularly, such as on a daily or weekly basis. Type a value in the corresponding box and select one of the following values from the list: Second(s), Minute(s), Hour(s), Day(s).
+
+        On (in Coordinated Universal Time (UTC)) - sets an exact date and time when the content will expire. This setting is best for content that is not expected to change frequently.
